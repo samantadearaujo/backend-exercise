@@ -1,8 +1,15 @@
-# Backend
+## Backend
+
+# Setting env
+``` .env
+export POSTGRESS_USER=""
+export POSTGRESS_PASSWORD=""
+```
 
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
+  * Put setting .env with `source .env`
   * Create and migrate your database with `mix ecto.setup`
   * Start Phoenix endpoint with `mix phx.server`
 
